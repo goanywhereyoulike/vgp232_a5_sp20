@@ -19,6 +19,7 @@ namespace Assignment5
             myCharacter.RestoreHealth(10);
 
             Console.WriteLine("The game has ended with {0} with {1} health", myCharacter.Name, myCharacter.HealthPoints);
+            Console.ReadKey();
         }
     }
 }
