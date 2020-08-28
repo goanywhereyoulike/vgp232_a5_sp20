@@ -26,9 +26,9 @@ namespace Assignment5
             Item item2 = new Item("flower", 15, ItemType.key);
             Item item3 = new Item("tree", 20, ItemType.equipment);
             inventory.Add(item1);
-            //inventory.Add(item2);
-            //inventory.Add(item3);
-            //inventory.Remove(item1);
+            inventory.Add(item2);
+            inventory.Add(item3);
+            inventory.Remove(item1);
             inventory.Remove(item2);
             inventory.ShowInventory();
             Console.ReadKey();
