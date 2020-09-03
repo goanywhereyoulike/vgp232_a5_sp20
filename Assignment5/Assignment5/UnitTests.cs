@@ -26,6 +26,7 @@ namespace Assignment5
             item2 = new Item("flower", 15, ItemType.key);
             item3 = new Item("tree", 20, ItemType.equipment);
         }
+        //setup
 
         [Test]
         public void CheckCharacterTakeDamage()
